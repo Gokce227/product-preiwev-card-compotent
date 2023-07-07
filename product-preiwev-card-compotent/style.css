@@ -1,0 +1,156 @@
+
+
+ *{margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* Ekranin ortasina  bir nesneyi ortalama yaparken*/
+    height:100vh ; 
+}
+
+
+img{
+    width: 300px;
+    height: 480px; 
+    border-radius: 15px 0 0 15px;
+}
+
+.bottom-container{
+    width: 300px;
+    height: 480px;
+    background: hsl(0, 0%, 100%);
+    margin-top: -4px;
+    border-radius: 0 15px 15px 0;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+h6{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(228, 12%, 48%);
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Fraunces';
+    line-height: 28px;
+    font-weight: 700px;  
+    padding-right: 40px;
+}
+
+.dark{
+    margin-top: 30px; 
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color:  hsl(228, 12%, 48%);
+    font-weight: 700px;
+    line-height: 25px;  
+}
+
+.text{
+    color:  hsl(158, 36%, 37%);
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: none;
+    word-spacing: 10px;
+  }
+
+ span{
+  padding-left: 20px;
+  text-decoration: line-through;
+  font-size: 15px;
+  color:  hsl(228, 12%, 48%);
+  font-weight: 500;
+}
+
+p{
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;  
+}
+
+button{
+    background-color:hsl(158, 36%, 37%);
+     color:hsl(0, 0%, 100%);
+      font-family: 'Fraunces';
+     /*width: 230px;
+      height: 50px;*/
+     border-radius: 5px ;
+     line-height: 5px;
+     font-size: 15px;
+     padding:15px 70px;
+     border: 0;     
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+       content:url(images/image-product-mobile.jpg);
+        width: 330px;
+        height: 250px;
+        padding: 0;
+        border-radius: 15px 15px 0 0px;
+           
+    }
+    .bottom-container{
+        width: 330px;
+        height: 400px;
+        border-radius: 0 0 15px 15px;
+        padding: 25px 20px 25px 25px;
+    }
+
+    h6{
+     margin-bottom: 10px;
+    }
+
+    h1{
+     margin-bottom: 10px;
+     padding-right: 15px;
+     line-height: 32px;
+    }
+
+   .dark{
+    margin-top: 10px;
+   }
+
+   p{
+    padding-bottom: 20px;
+   }
+
+  button{
+    padding:15px 95px;
+  }   
+}
+
+
+
+
+
+   
+   
+
+
+
+
